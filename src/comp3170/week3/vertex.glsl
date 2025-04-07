@@ -11,9 +11,8 @@ out vec3 v_colour; // to fragment shader
 void main() {
 	v_colour = a_colour;
 
-
 	// pad the vertex to a homogeneous 3D point
-    gl_Position = u_matrix * a_position;
+    gl_Position = u_modelMatrix * a_position;
 
 }
 

@@ -49,12 +49,9 @@ public class Week3 implements IWindowListener {
 
 	@Override
 	public void draw() {
-
-        // clear the colour buffer
 		glClear(GL_COLOR_BUFFER_BIT);	
 		
 		scene.draw();
-	    
 	}
 
 	@Override
