@@ -38,9 +38,9 @@ public class Scene {
 	private Matrix4f transMatrix = new Matrix4f();
 	private Matrix4f scaleMatrix = new Matrix4f();
 	private Matrix4f rotateMatrix = new Matrix4f();
-	final private Vector3f offSet = new Vector3f(0.0f,0.25f,0.0f);
+	final private Vector3f offSet = new Vector3f(0.55f,0.0f,0.0f);
 	final private float rotationRate = TAU/12;
-	final private float movingSpeed = 1f;
+	final private float movingSpeed = 3f;
 	final private float scale = 0.1f;
 
 	
